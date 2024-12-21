@@ -1,6 +1,6 @@
 FROM debian:bullseye-slim
 
-ADD https://raw.githubusercontent.com/amykyta3/envoy-logger/main/launcher.sh /
+ADD https://raw.githubusercontent.com/jamesevolve/envoy-logger/main/launcher.sh /
 RUN chmod +x /launcher.sh
 
 # Install Stuff
